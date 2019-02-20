@@ -2,6 +2,13 @@
 Bash script to quickly and easily switch PHP version (apache & commande line)
 
 # Usage:
-./switchphp.sh 5.6             
-             
+./switchphp.sh 5.6            
 ./switchphp.sh 7.3
+      
+          
+      
+You can create a symlink in your /usr/bin:       
+sudo ln -s path/to/switchphp.sh /usr/bin/switchphp
+       
+To directly call:     
+switchphp 7.3
