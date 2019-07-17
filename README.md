@@ -1,22 +1,22 @@
 # php_version_switcher
 Bash script to quickly and easily switch PHP version (apache & commande line)
 
-1) Install different versions of PHP
-2) Usage
+**1) Install different versions of PHP**
+**2) Usage**
 
 
 # Install different versions of PHP:
 
-Install Ondřej Surý PPA to get different versions of PHP:            
+**Install Ondřej Surý PPA to get different versions of PHP:**            
             
 sudo apt install python-software-properties            
 sudo add-apt-repository ppa:ondrej/php            
             
-Update your system:            
+**Update your system:**            
             
 sudo apt-get update            
             
-Install your versions of PHP:            
+**Install your versions of PHP:**            
             
 sudo apt install php5.6            
 sudo apt install php7.3            
