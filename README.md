@@ -1,8 +1,9 @@
 # php_version_switcher
 Bash script to quickly and easily switch PHP version (apache & commande line)
 
-**1) Install different versions of PHP**
+**1) Install different versions of PHP**            
 **2) Usage**
+
 
 
 # Install different versions of PHP:
@@ -20,6 +21,12 @@ sudo apt-get update
             
 sudo apt install php5.6            
 sudo apt install php7.3            
+            
+**Install the modules you need:**                   
+
+sudo apt install php5.6-cli php5.6-mysql                  
+sudo apt install php7.3-cli php7.3-mysql                 
+            
             
 # Usage:
 ./switchphp.sh 5.6            
